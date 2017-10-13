@@ -1,3 +1,0 @@
-#!/bin/sh
-../../src/mpeg2dec/mpeg2decode -b sample.m2v -o0 outfile%d
-echo Finish decoding. 

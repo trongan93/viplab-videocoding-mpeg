@@ -1,4 +1,0 @@
-#!/bin/sh
-../../src/mpeg2enc/mpeg2encode test.par new.m2v
-echo Verifying bitstream
-

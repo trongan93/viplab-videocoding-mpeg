@@ -1,4 +1,0 @@
-#!/bin/sh
-../../src/mpeg2enc/mpeg2encode NTSC.par new_ntsc.m2v
-echo Verifying bitstream
-
