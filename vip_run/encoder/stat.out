@@ -24,17 +24,17 @@ rate control: start of picture
 vbv_delay=19211 (bitcount=632, decoding_time=19353.60, bitcnt_EOP=0)
 
 rate control: end of picture
- actual number of bits: S=27189
- average quantization parameter Q=15.8
- remaining number of bits in GOP: R=20811
- global complexity measures (I,P,B): Xi=214113, Xp=208696, Xb=146087
- virtual buffer fullness (I,P,B): d0i=6792, d0p=10323, d0b=14452
+ actual number of bits: S=14113
+ average quantization parameter Q=9.9
+ remaining number of bits in GOP: R=33887
+ global complexity measures (I,P,B): Xi=69683, Xp=208696, Xb=146087
+ virtual buffer fullness (I,P,B): d0i=-6284, d0p=10323, d0b=14452
  remaining number of P pictures in GOP: Np=1
  remaining number of B pictures in GOP: Nb=1
- average activity: avg_act=322.6
-Y: variance=2171, MSE=60.4 (30.3 dB), SNR=15.6 dB
-U: variance=67.17, MSE=13.7 (36.8 dB), SNR=6.92 dB
-V: variance=271.5, MSE=12.2 (37.3 dB), SNR=13.5 dB
+ average activity: avg_act=142.1
+Y: variance=4544, MSE=30.3 (33.3 dB), SNR=21.8 dB
+U: variance=3185, MSE=3.03 (43.3 dB), SNR=30.2 dB
+V: variance=6106, MSE=3.24 ( 43 dB), SNR=32.8 dB
 
 picture statistics:
  # of intra coded macroblocks:    64 (100.0%)
@@ -47,23 +47,23 @@ picture statistics:
 
 macroblock_type map:
 I  I  I  I  I  I  I  I  
-I  I  I  I  I  I  I  IQ 
-IQ I  I  I  I  I  IQ I  
-IQ I  I  I  IQ I  IQ I  
-I  IQ IQ IQ IQ I  I  I  
-IQ I  I  I  IQ I  I  I  
-I  I  I  I  IQ I  I  I  
-IQ I  I  I  I  I  I  IQ 
+I  I  I  I  I  IQ I  I  
+I  I  I  IQ I  I  I  I  
+IQ I  IQ I  I  IQ I  I  
+I  IQ I  I  I  I  IQ I  
+I  I  I  IQ I  I  I  I  
+I  I  I  I  I  I  I  I  
+I  I  I  I  I  I  I  I  
 
 mquant map:
  20                     
- 20                   12
- 18                10   
- 16          10    20   
- 20 12 18 26 18         
-  8          14         
- 14           8         
- 16                    8
+ 20             12      
+ 12       20            
+ 10    16       10      
+ 10  6              4   
+  4        2            
+  2                     
+  2                     
 
 Frame 1 (#2 in display order):
  picture_type=P
@@ -76,51 +76,51 @@ Frame 1 (#2 in display order):
  forward vector range: -16...15.5 / -16...15.5
 
 rate control: start of picture
- target number of bits: T=13874
+ target number of bits: T=22591
 
-vbv_delay=16695 (bitcount=27816, decoding_time=22953.60, bitcnt_EOP=27784)
+vbv_delay=19636 (bitcount=14744, decoding_time=22953.60, bitcnt_EOP=14712)
 
 rate control: end of picture
- actual number of bits: S=19564
- average quantization parameter Q=21.6
- remaining number of bits in GOP: R=1247
- global complexity measures (I,P,B): Xi=214113, Xp=211230, Xb=146087
- virtual buffer fullness (I,P,B): d0i=6792, d0p=16013, d0b=14452
+ actual number of bits: S=9774
+ average quantization parameter Q=12.6
+ remaining number of bits in GOP: R=24113
+ global complexity measures (I,P,B): Xi=69683, Xp=61546, Xb=146087
+ virtual buffer fullness (I,P,B): d0i=-6284, d0p=-2494, d0b=14452
  remaining number of P pictures in GOP: Np=0
  remaining number of B pictures in GOP: Nb=1
- average activity: avg_act=269.1
-Y: variance=1812, MSE=78.5 (29.2 dB), SNR=13.6 dB
-U: variance=55.93, MSE= 20 (35.1 dB), SNR=4.48 dB
-V: variance=295.6, MSE=17.4 (35.7 dB), SNR=12.3 dB
+ average activity: avg_act=157.5
+Y: variance=4897, MSE=38.5 (32.3 dB), SNR= 21 dB
+U: variance=3066, MSE=5.95 (40.4 dB), SNR=27.1 dB
+V: variance=6117, MSE=6.89 (39.8 dB), SNR=29.5 dB
 
 picture statistics:
- # of intra coded macroblocks:    22 (34.4%)
- # of coded blocks:              325 (84.6%)
- # of not coded macroblocks:       0 (0.0%)
- # of skipped macroblocks:         0 (0.0%)
- # of forw. pred. macroblocks:    20 (31.2%)
+ # of intra coded macroblocks:     4 (6.2%)
+ # of coded blocks:              150 (39.1%)
+ # of not coded macroblocks:       8 (12.5%)
+ # of skipped macroblocks:        24 (37.5%)
+ # of forw. pred. macroblocks:    26 (40.6%)
  # of backw. pred. macroblocks:    0 (0.0%)
  # of interpolated macroblocks:    0 (0.0%)
 
 macroblock_type map:
-0  0  0Q 0  0Q 0Q 0  0  
-0Q 0  0Q 0Q 0Q 0Q I  f  
-0Q 0Q 0Q 0Q 0Q IQ I  fQ 
-0Q 0Q 0  f  I  fQ fQ IQ 
-fQ I  fQ IQ fQ fQ f  IQ 
-IQ I  IQ I  IQ fQ fQ FQ 
-IQ I  f  IQ fQ IQ f  fQ 
-IQ I  I  IQ IQ fQ fQ fQ 
+0Q 0Q 0Q 0Q 0Q 0Q IQ IQ 
+0  0Q 0Q 0  fQ f  FQ F  
+fQ FQ fQ F  FQ FQ FQ FQ 
+IQ I  FQ F  FQ F  F  fQ 
+FN SN SN SN SN SN SN FN 
+FN SN SN SN SN SN SN FN 
+FN SN SN SN SN SN SN FN 
+FN SN SN SN SN SN SN FN 
 
 mquant map:
- 20    22    20 18      
- 20    22 20 22 20      
- 22 20 22 20 22 20    24
- 22 20          22 14 16
- 24    28 24 28 14    22
- 24    28    20 24 28 32
- 14       32 24 22    28
- 16       20 32 16 28 36
+ 28 24 28 24 22 24 22 24
+ 24 20 24    22    18   
+ 22 20 24    28 14 24 28
+  8    14    24       22
+  8        7        6   
+  6  5        4        3
+  3     2        1      
+  1                     
 
 Frame 2 (#1 in display order):
  picture_type=B
@@ -135,48 +135,48 @@ Frame 2 (#1 in display order):
  backward vector range: -8...7.5 / -8...7.5
 
 rate control: start of picture
- target number of bits: T=2000
+ target number of bits: T=24113
 
-vbv_delay=15892 (bitcount=47384, decoding_time=26553.60, bitcnt_EOP=47352)
+vbv_delay=21036 (bitcount=24520, decoding_time=26553.60, bitcnt_EOP=24488)
 
 rate control: end of picture
- actual number of bits: S=6981
- average quantization parameter Q=31.5
- remaining number of bits in GOP: R=-5734
- global complexity measures (I,P,B): Xi=214113, Xp=211230, Xb=109842
- virtual buffer fullness (I,P,B): d0i=6792, d0p=16013, d0b=19433
+ actual number of bits: S=6412
+ average quantization parameter Q=14.2
+ remaining number of bits in GOP: R=17701
+ global complexity measures (I,P,B): Xi=69683, Xp=61546, Xb=45385
+ virtual buffer fullness (I,P,B): d0i=-6284, d0p=-2494, d0b=-3249
  remaining number of P pictures in GOP: Np=0
  remaining number of B pictures in GOP: Nb=0
- average activity: avg_act=323.0
-Y: variance=2040, MSE=84.9 (28.8 dB), SNR=13.8 dB
-U: variance=66.64, MSE=23.5 (34.4 dB), SNR=4.53 dB
-V: variance=286.8, MSE=22.6 (34.6 dB), SNR= 11 dB
+ average activity: avg_act=172.4
+Y: variance=4717, MSE=36.8 (32.5 dB), SNR=21.1 dB
+U: variance=3139, MSE=5.02 (41.1 dB), SNR= 28 dB
+V: variance=6137, MSE=5.37 (40.8 dB), SNR=30.6 dB
 
 picture statistics:
- # of intra coded macroblocks:     4 (6.2%)
- # of coded blocks:              157 (40.9%)
- # of not coded macroblocks:      22 (34.4%)
+ # of intra coded macroblocks:     1 (1.6%)
+ # of coded blocks:              107 (27.9%)
+ # of not coded macroblocks:      42 (65.6%)
  # of skipped macroblocks:         0 (0.0%)
- # of forw. pred. macroblocks:     1 (1.6%)
- # of backw. pred. macroblocks:   39 (60.9%)
- # of interpolated macroblocks:   20 (31.2%)
+ # of forw. pred. macroblocks:     0 (0.0%)
+ # of backw. pred. macroblocks:   48 (75.0%)
+ # of interpolated macroblocks:   15 (23.4%)
 
 macroblock_type map:
-dN dN dN dQ dN bN bN bN 
-dN bN bN bN bN d  bQ bQ 
-dN dN bN dN dN b  bQ dQ 
-dN dN bN bN bQ bQ b  bQ 
-bQ bQ bN b  bQ bQ bQ bQ 
-dQ bQ bQ bQ bQ bQ bQ dQ 
-IQ I  b  bQ bQ bQ b  dQ 
-bQ IQ bQ IQ dQ dQ dQ fQ 
+dN bN dN dN dN dN bQ b  
+dN dN bN bN bQ dQ BQ bQ 
+dQ B  D  BQ B  BQ BQ BQ 
+IQ b  b  dQ DQ DQ dQ D  
+bN bN bN bN bN bN bN bN 
+bN bN bN bN bN bN bN bN 
+bN bN bN bN bN bN bN bN 
+bN bN bN bN bN bN bN bN 
 
 mquant map:
- 32 28 36 32    28      
- 32                28 32
- 32 28 32          20 22
- 32 28 32       18    28
- 32 36 40 36 40 22 48 44
- 18 20 36 56 36 32 40 32
- 18       22 40 36    44
- 22 32 44 36 48 28 36 22
+ 36 32 40 32            
+ 28 24 28       24 16 28
+ 24       28    18 28 18
+  8       18 28 24 20   
+  8     7        6      
+  5        4        3   
+  3  2     1            
+  1                     
