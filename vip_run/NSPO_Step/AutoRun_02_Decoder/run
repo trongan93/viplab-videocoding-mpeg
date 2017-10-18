@@ -1,0 +1,8 @@
+#!/bin/sh
+../../../src/mpeg2dec/mpeg2decode -f -b new_small_size.m2v -o0 newFile_smallSize%d
+echo Finish decoding video small size.
+../../../src/mpeg2dec/mpeg2decode -f -b new_medium_size.m2v -o0 newFile_mediumSize%d
+echo Finish decoding video medium size.
+../../../src/mpeg2dec/mpeg2decode -f -b new_large_size.m2v -o0 newFile_largeSize%d
+echo Finish decoding video large size.
+ 

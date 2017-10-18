@@ -1,0 +1,9 @@
+#!/bin/sh
+../../../src/mpeg2enc/mpeg2encode NTSC_small.par new_small_size.m2v
+echo Finish encode video with small size
+../../../src/mpeg2enc/mpeg2encode NTSC_medium.par new_medium_size.m2v
+echo Finish encode video with medium size
+../../../src/mpeg2enc/mpeg2encode NTSC_large.par new_large_size.m2v
+echo Finish encode video with large size
+
+

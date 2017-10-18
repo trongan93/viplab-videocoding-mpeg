@@ -1,0 +1,1 @@
+./mpeg2decode -f -b new_ntsc2.m2v -o0 newFile%d
