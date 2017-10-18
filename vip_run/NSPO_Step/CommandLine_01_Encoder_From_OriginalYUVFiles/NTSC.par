@@ -1,5 +1,5 @@
 MPEG-2 Test Sequence, 30 frames/sec
-sbs%d    /* name of source files */
+small%d    /* name of source files */
 q%d       /* name of reconstructed images ("-": don't store) */
 -         /* name of intra quant matrix file     ("-": default matrix) */ 
 -         /* name of non intra quant matrix file ("-": default matrix) */
